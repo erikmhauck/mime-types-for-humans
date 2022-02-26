@@ -1,7 +1,7 @@
 const mime = require("mime-types");
 const mapping = require("./mapping.json");
 
-const lookup = (lookUpString) => {
+function lookup(lookUpString) {
   const mimeType = mime.lookup(lookUpString);
   if (!mimeType) {
     return false;
@@ -12,6 +12,6 @@ const lookup = (lookUpString) => {
     return mimeType;
   }
   return friendlyName;
-};
+}
 
-exports.lookup = lookup;
+module.exports = { lookup };

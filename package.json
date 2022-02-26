@@ -1,8 +1,9 @@
 {
   "name": "mime-types-for-humans",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.5",
+  "description": "Returns a human readable string describing the application used to open a file or file extension.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "jest"
   },
@@ -10,22 +11,29 @@
     "type": "git",
     "url": "git+https://github.com/erikmhauck/mime-types-for-humans.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "mime",
+    "types",
+    "human",
+    "readable"
+  ],
+  "author": "Erik Hauck",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/erikmhauck/mime-types-for-humans/issues"
   },
   "homepage": "https://github.com/erikmhauck/mime-types-for-humans#readme",
-  "dependencies": {
-    "mime-types": "^2.1.34"
-  },
   "files": [
     "HISTORY.md",
     "LICENSE",
     "README.md",
     "mapping.json",
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
+  "dependencies": {
+    "mime-types": "^2.1.34"
+  },
   "devDependencies": {
     "jest": "^27.5.1"
   }
