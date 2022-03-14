@@ -1,5 +1,8 @@
 # mime-types-for-humans
 
+[![GitHub issues](https://img.shields.io/github/issues/erikmhauck/mime-types-for-humans)](https://github.com/erikmhauck/mime-types-for-humans/issues)
+[![GitHub license](https://img.shields.io/github/license/erikmhauck/mime-types-for-humans)](https://github.com/erikmhauck/mime-types-for-humans/blob/main/LICENSE)
+
 Returns a human readable string describing the application used to open a file or file extension.
 
 ## Installation
